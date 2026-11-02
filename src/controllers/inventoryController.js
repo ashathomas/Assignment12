@@ -51,7 +51,6 @@ try {
 
             result = result.filter(item => item.quantity <= max);
         }
-
         // Search by item name
         if (search) {
             result = result.filter(item =>

@@ -4,7 +4,6 @@ const app=express();
 const inventoryRoutes=require('./routes/inventoryRoutes');
 app.use(express.json());
 
-
 app.use("/inventories",inventoryRoutes);
 const PORT=3002;
 

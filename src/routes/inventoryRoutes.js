@@ -9,4 +9,5 @@ router.get('/:id',inventoryController.getInventoryById);
 router.put('/:id',validateInventory,inventoryController.updateInventoryById);
 router.patch('/:id',inventoryController.partialUpdateInventoryById);
 router.delete('/:id',inventoryController.deleteInventoryById);
+
 module.exports=router;

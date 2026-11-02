@@ -5,4 +5,5 @@ const validateInventory=(req,res,next)=>{
     }
     next();
 }
+
 module.exports=validateInventory;
